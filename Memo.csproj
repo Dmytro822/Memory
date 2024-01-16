@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Icon\icon.png" />
+    <None Remove="Images\Pictures\Black.png" />
+    <None Remove="Images\Pictures\camera.png" />
+    <None Remove="Images\Pictures\clava.png" />
+    <None Remove="Images\Pictures\cpu.png" />
+    <None Remove="Images\Pictures\disketka.png" />
+    <None Remove="Images\Pictures\dom.png" />
+    <None Remove="Images\Pictures\gazeta.png" />
+    <None Remove="Images\Pictures\instr.png" />
+    <None Remove="Images\Pictures\lampochka.png" />
+    <None Remove="Images\Pictures\map.png" />
+    <None Remove="Images\Pictures\money.png" />
+    <None Remove="Images\Pictures\pechenie.png" />
+    <None Remove="Images\Pictures\pesok-chasi.png" />
+    <None Remove="Images\Pictures\pirojin.png" />
+    <None Remove="Images\Pictures\sova.png" />
+    <None Remove="Images\Pictures\zamok.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Icon\icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pictures\Black.png" />
+    <Resource Include="Images\Pictures\camera.png" />
+    <Resource Include="Images\Pictures\clava.png" />
+    <Resource Include="Images\Pictures\cpu.png" />
+    <Resource Include="Images\Pictures\disketka.png" />
+    <Resource Include="Images\Pictures\dom.png" />
+    <Resource Include="Images\Pictures\gazeta.png" />
+    <Resource Include="Images\Pictures\instr.png" />
+    <Resource Include="Images\Pictures\lampochka.png" />
+    <Resource Include="Images\Pictures\map.png" />
+    <Resource Include="Images\Pictures\money.png" />
+    <Resource Include="Images\Pictures\pechenie.png" />
+    <Resource Include="Images\Pictures\pesok-chasi.png" />
+    <Resource Include="Images\Pictures\pirojin.png" />
+    <Resource Include="Images\Pictures\sova.png" />
+    <Resource Include="Images\Pictures\zamok.png" />
+  </ItemGroup>
+
+</Project>
